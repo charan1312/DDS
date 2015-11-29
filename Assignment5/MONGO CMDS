@@ -1,0 +1,27 @@
+TO FIND ALL SCHEMA DDL
+=======================
+var a = db.businessCollection.findOne();
+for (var col in a) { print (col); }
+
+
+WHERE CLAUSE WITH city, AND SELECT FIELDS name,full_address,city,state
+======================================================================
+db.businessCollection.find({city : 'Tempe'}, {name:1,full_address:1,city:1,state:1})
+
+THE COLUMN _id:0 IS ALWAYS ENABLES BY DEFAULT. use -id:0 to not include it in the output
+
+
+CURSOR TO ITERATE THROUGH THE LOOP
+==================================
+var myCursor =  db.businessCollection.find({city : 'Tempe'}, {_id:0,name:1,full_address:1,city:1,state:1});
+myCursor.forEach(printjson);
+
+
+var myCursor = db.businessCollection.find({city : 'Tempe'}, {_id:0,name:1,full_address:1,city:1,state:1});
+var documentArray = myCursor.toArray();
+documentArray.length; ----------- 106
+var myDocument = documentArray[1];
+
+
+
+post['name']
