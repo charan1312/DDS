@@ -15,7 +15,7 @@ import math
 def FindBusinessBasedOnCity(cityToSearch, saveLocation1, collection):
 	cityToSearch = cityToSearch.strip()
 	if os.path.exists(saveLocation1):
-		os.remove(saveLocation1)	
+		os.remove(saveLocation1)
 	out = codecs.open(saveLocation1,'w', encoding='utf-8')
 	queryRs = collection.find({'city': re.compile('^' + re.escape(cityToSearch) + '$', re.IGNORECASE)})
 	for rs in queryRs:
@@ -27,7 +27,7 @@ def FindBusinessBasedOnCity(cityToSearch, saveLocation1, collection):
 
 def FindBusinessBasedOnLocation(categoriesToSearch, myLocation, maxDistance, saveLocation2, collection):
 	if os.path.exists(saveLocation2):
-		os.remove(saveLocation2)	
+		os.remove(saveLocation2)
 	out = codecs.open(saveLocation2,'w', encoding='utf-8')
 	queryRs = collection.find({'categories': {"$in":categoriesToSearch}})
 	for rs in queryRs:

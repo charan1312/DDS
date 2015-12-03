@@ -1,0 +1,500 @@
+   85  cd -
+   86  pwd
+   87  cd ../bin
+   88  rm -R /tmp/ha*
+   89  ./hadoop namenode -format
+   90  cd ../sbin
+   91  ./start-dfs.sh
+   92  ./stop-all.sh 
+   93  ./start-dfs.sh
+   94  cd ../bin
+   95  ./hadoop namenode -format
+   96  cd ../sbin
+   97  ./start-dfs.sh
+   98  ./start-dfs.sh
+   99  cd Downloads/hadoop-2.6.0/bin/
+  100  cd ../sbin/
+  101  ./start-dfs.sh
+  102  sudo gedit /etc/hosts
+  103  ./hadoop-env.sh
+  104  pwd
+  105  ./start-all
+  106  la
+  107  ls
+  108  ./start-all.sh 
+  109  ./start-dfs.sh 
+  110  ssh 192.168.0.73
+  111  cd
+  112  ls -la
+  113  cd .ssh/
+  114  ls
+  115  cd Downloads/hadoop-2.6.0/bin/
+  116  cd ../sbin
+  117  ./start-dfs.sh
+  118  su
+  119  sudo ./start-dfs.sh
+  120  sudo gedit /etc/hosts
+  121  ifconfig
+  122  which java
+  123  cd Downloads/hadoop-2.6.0
+  124  cd /usr/jvm
+  125  cd /usr/lib
+  126  cd jvm
+  127  ls
+  128  pwd
+  129  cd java-1.7.0-openjdk-amd64
+  130  pwd
+  131  exit
+  132  cd /ls
+  133  cd /
+  134  ls
+  135  cd homw
+  136  cd home/
+  137  ls
+  138  cd hduser/
+  139  ls
+  140  cd Downloads/
+  141  ls
+  142  ls
+  143  cd ..
+  144  cd..
+  145  cd ..
+  146  cd test1/
+  147  ls
+  148  cd Downloads/
+  149  ssh 192.168.0.73
+  150  pwd
+  151  cd
+  152  cd .ssh/
+  153  ls
+  154  ssh 192.168.0.73
+  155  ssh-copy-id test1@192.168.0.73
+  156  ssh 192.168.0.73
+  157  cd ..
+  158  pwd
+  159  cd Downloads/
+  160  cd hadoop-2.6.0
+  161  cd bin
+  162  ./hadoop namenode -format
+  163  cd ./sbin
+  164  cd ../sbin
+  165  ./start-dfs.sh
+  166  sudo ./start-dfs.
+  167  sudo ./start-dfs.sh\
+  168  sudo ./start-dfs.sh
+  169  cd /tmp/hadoop-test1/
+  170  ls
+  171  cd dfs
+  172  ls
+  173  cd name
+  174  cd..
+  175  cd..
+  176  cd..
+  177  cd -
+  178  pwd
+  179  cd 
+  180  cd Downloads/hadoop-2.6.0/bin
+  181  sudo gedit /etc/hosts
+  182  pwd
+  183  ./hadoop -namenode format
+  184  ./hadoop namenode -format
+  185  cd ../sbin
+  186  ./start-all.sh 
+  187  ./start-dfs.sh 
+  188  exho $JAVA_HOME
+  189  echo $JAVA_HOME
+  190  cat /etc/environment 
+  191  sudo gedit /etc/environment 
+  192  exit
+  193  cd Downloads/hadoop-2.6.0/bin/
+  194  ./hadoop namenode -format
+  195  cd ../sbin
+  196  ./start-dfs.sh 
+  197  ./start-dfs.sh 
+  198  cd
+  199  cd Downloads/hadoop/bin/
+  200  ./hadoop namenode -format
+  201  ls
+  202  cd ..
+  203  chmod 775 * -R
+  204  ls
+  205  pwd
+  206  cd bin
+  207  ./hadoop namenode -format
+  208  cd ../sbin/
+  209  pwd
+  210  clear
+  211  ./start-dfs.sh 
+  212  ./start-dfs.sh 
+  213  pwd
+  214  ./stop-dfs.sh 
+  215  cd Downloads/hadoop
+  216  cd sbin
+  217  ./start-dfs.sh
+  218  clear
+  219  adduser hdworker
+  220  sudo adduser hdworker
+  221  groups
+  222  groups hdworker
+  223  addgrp
+  224  sudo adduser hdworker sudo 
+  225  logout
+  226  exit
+  227  shutdown
+  228  shutdown
+  229  sudo shutdown
+  230  exit
+  231  mkdir Asg4
+  232  cd Asg4/
+  233  gedit input
+  234  gedit /etc/hosts1
+  235  ifconfig
+  236  sudo gedit /etc/hosts
+  237  cd \mtp
+  238  cd \tmp
+  239  cd /tmp
+  240  ls had*
+  241  ls
+  242  cd
+  243  cd hadoop-2.6.2
+  244  ls
+  245  cd bin
+  246  ./hadoop namenode -format
+  247  cd /tmp
+  248  ls
+  249  cd -
+  250  cd ..
+  251  cd sbin
+  252  ./start-dfs.sh
+  253  which hadoop
+  254  ./stop-dfs.sh
+  255  cat env
+  256  env
+  257  env | grep HADOOP
+  258  cd
+  259  gedit .bashrc
+  260  exit
+  261  pwd
+  262  cd hadoop-2.6.2/sbin/
+  263  ls
+  264  ./start-dfs.sh
+  265  gedit .bashrc
+  266  cd
+  267  gedit .bashrc
+  268  pwd
+  269  source .bashrc
+  270  echo $HADOOP_YARN_HOME
+  271  echo $YARN_HOME
+  272  exit
+  273  pwd
+  274  ls
+  275  cd Asg4/
+  276  ls
+  277  cd ../hadoop-2.6.2/bin/
+  278  ls
+  279  hdfs -mkdir Input
+  280  ./hdfs -mkdir Input
+  281  ./hdfs fs -mkdir Input
+  282  history | grep hdfs
+  283  ./hadoop fs -mkdir hdfs://master:54310/Asg4Input
+  284  ./hadoop fs 
+  285  ./hadoop fs -ls hdfs://master:54310/Asg4Input
+  286  ./hadoop fs -ls hdfs://master:54310/Asg4Input/
+  287  ./hadoop fs -put /home/test1/Asg4/input hdfs://master:54310/Asg4Input/inp
+  288  ./hadoop fs -ls hdfs://master:54310/Asg4Input/
+  289  ./hadoop fs -cat hdfs://master:54310/Asg4Input/
+  290  ./hadoop fs -cat hdfs://master:54310/Asg4Input/inp
+  291  pwd
+  292  CD ..
+  293  cd ..
+  294  pwed
+  295  ped
+  296  pwd
+  297  grep -r . "mapreduce.framework.name" 
+  298  grep  . "mapreduce.framework.name" 
+  299  grep  "mapreduce.framework.name" ./*
+  300  grep  "mapreduce.framework.name" -R ./*
+  301  exit
+  302  pwd
+  303  gedit .bashrc
+  304  source .bashrc
+  305  echo $HADOOP_PREFIX
+  306  gedit .bashrc
+  307  source .bashrc
+  308  echo $HADOOP_PREFIX
+  309  pwd
+  310  pwd
+  311  cd asg4/
+  312  ls
+  313  cd EquijoinMapReduce/
+  314  ls
+  315  cd src/
+  316  ls
+  317  cd main
+  318  ls
+  319  cd java
+  320  cd
+  321  ls
+  322  cd -
+  323  pwd
+  324  ls
+  325  cd edu
+  326  ls
+  327  cd asu
+  328  ls
+  329  cd cse512/
+  330  ls
+  331  ls
+  332  pwd
+  333  cd 
+  334  cd hadoop-2.6.2/bin/
+  335  ./hadoop com.sun.tools.javac.Main /home/test1/asg4/EquijoinMapReduce/src/main/java/edu/asu/cse512/EquiJoin.java 
+  336  echo $JAVA_HOME
+  337  echo $PATH
+  338  echo $PATH | grep java
+  339  export PATH=$JAVA_HOME/bin:$PATH
+  340  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  341  /home/test1/hadoop-2.6.2/ com.sun.tools.javac.Main /home/test1/asg4/EquijoinMapReduce/src/main/java/edu/asu/cse512/EquiJoin.java 
+  342  cd  /home/test1/asg4/EquijoinMapReduce/src/main/java/edu/asu/cse512
+  343  l;s
+  344  ls
+  345  jar cf equijoin.jar EquiJoin*.class
+  346  ls
+  347  /home/test1/hadoop-2.6.2/bin/hadoop jar equijoin.jar EquiJoin 
+  348  /home/test1/hadoop-2.6.2/bin/hadoop jar equijoin.jar EquiJoin
+  349  /home/test1/hadoop-2.6.2/bin/hadoop com.sun.tools.javac.Main /home/test1/asg4/EquijoinMapReduce/src/main/java/edu/asu/cse512/EquiJoin.java 
+  350  jar cf equijoin.jar EquiJoin*.class
+  351  /home/test1/hadoop-2.6.2/bin/hadoop jar equijoin.jar EquiJoin
+  352  /home/test1/hadoop-2.6.2/bin/hadoop jar equijoin.jar edu.asu.cse512.EquiJoin
+  353  jar cf equijoin.jar EquiJoin.class
+  354  pwd
+  355  ls
+  356  cd 
+  357  cd asg4/EquijoinMapReduce/
+  358  ls
+  359  cd target/
+  360  ls
+  361  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  362  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  363  pwd
+  364  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  365  ls
+  366  ls
+  367  cd ..
+  368  ls
+  369  cd target/
+  370  ls
+  371  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  372  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  373  cd
+  374  cd -
+  375  ls
+  376  cd ..
+  377  /home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  378  mvn
+  379  ls
+  380  mvn clean install;/home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  381  mvn clean install;/home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  382  mvn clean install;/home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin
+  383  exit
+  384  shutdown
+  385  shutdown --help
+  386  shutdown 1
+  387  sudo reboot
+  388  cd HADOOP
+  389  cd $HADOOP
+  390  pwd
+  391  cd hadoop-2.6.2
+  392  cd sbin
+  393  ./stop-all.sh 
+  394  ./start--all.sh 
+  395  ./start-all.sh 
+  396  cd ../bin
+  397  ./hadoop fs -rm -R hdfs://master:54310/Asg4Input/out
+  398  cd hadoop-2.6.2/sbin/
+  399  ./start-all.sh 
+  400  cd ../bin
+  401  ./hadoop namenode -ofrmat
+  402  ./hadoop namenode -format
+  403  cd ../sbin
+  404  ./start-dfd.sh 
+  405  ./start-dfs.sh 
+  406  ./hadoop fs -ls hdfs://master:54310/Asg4Input/
+  407  ./hadoop fs -ls hdfs://master:54310/
+  408  cd ../bin
+  409  ./hadoop fs -ls hdfs://master:54310/
+  410  ./hadoop fs -ls hdfs://master:54310/Asg4Input/
+  411  ./hadoop fs -mkdir hdfs://master:54310/A4/
+  412  ./hadoop fs -put /home/test1/Asg4/asginpint hdfs://master:54310/Asg4Input/inp
+  413  ./hadoop fs -put /home/test1/Asg4/asginpint hdfs://master:54310/Asg4Input/
+  414  ./hadoop fs -put /home/test1/Asg4/asginpint hdfs://master:54310/A4/
+  415  ./hadoop fs -ls hdfs://master:54310/A$
+  416  ./hadoop fs -ls hdfs://master:54310/A4/
+  417  ./hadoop fs -ls hdfs://master:54310/A4/
+  418  pwd
+  419  cd /home/test1/asg4/EquijoinMapReduce/target/
+  420  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin //FileInputFormat.addInputPath(job, new Path("hdfs://master:54310/A4/asginpint"));
+  421  ew Path("hdfs://master:54310/A4/asginpout"));
+  422  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  423  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  424  /home/test1/hadoop-2.6.2/bin/hadoop -jar Equijoin-0.1.jar edu.asu.cse512.EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  425  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  426  /home/test1/hadoop-2.6.2/bin/hadoop jar Equijoin-0.1.jar hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  427  cd ..
+  428  /home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  429  /home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  430  clear
+  431  /home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  432  ls
+  433  clear
+  434  /home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  435  exit
+  436  cd asg4/EquijoinMapReduce/
+  437  ls
+  438  /home/test1/hadoop-2.6.2/bin/hadoop jar target/Equijoin-0.1.jar edu.asu.cse512.EquiJoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  439  pqwd
+  440  ls
+  441  cd target/
+  442  ls
+  443  cd ..
+  444  rm -R target/
+  445  ls
+  446  ls
+  447  cd target/
+  448  ls
+  449  mv Equijoin-0.1.jar equijoin
+  450  ls
+  451  cd ..
+  452  cd target/
+  453  LS
+  454  ls
+  455  mv equijoin equijoin.jar
+  456  ls
+  457  cd ..
+  458  /home/test1/hadoop-2.6.2/bin/hadoop jar target/equijoin.jar equijoin hdfs://master:54310/A4/asginpint hdfs://master:54310/A4/asginpout1
+  459  cd
+  460  cat > depe
+  461  cd hadoop-2.6.2/bin/
+  462  ./hadoop fs -ls hdfs://master:54310/A4/
+  463  ./hadoop fs -ls hdfs://master:54310/A4/asginpout1
+  464  ./hadoop fs -rm -R hdfs://master:54310/A4/asginpout1
+  465  ./hadoop fs -rm -R hdfs://master:54310/A4/asginpout1
+  466  ./hadoop fs -ls hdfs://master:54310/A4/
+  467  ./hadoop fs -ls hdfs://master:54310/A4/
+  468  ./hadoop fs -rm -R hdfs://master:54310/A4/asginpout1
+  469  ./hadoop fs -ls hdfs://master:54310/A4/
+  470  ./stop-all.sh
+  471  cd ../sbin
+  472  ./stop-all.sh
+  473  cd /tmp
+  474  rm -R had*
+  475  cd -
+  476  ./start-dfs.sh
+  477  cd ../bin
+  478  ./stop-all.sh
+  479  ./stop-dfs.sh
+  480  cd ../sbin
+  481  ./stop-dfs.sh
+  482  cd /tmp
+  483  rm -R had*
+  484  cd -
+  485  cd ../bin
+  486  ./hadoop namenode -format
+  487  cd ../sbin
+  488  ./start-dfs.sh
+  489  cd ../bin
+  490  ./hadoop fs -ls hdfs://master:54310/
+  491  ./hadoop fs -mkdir hdfs://master:54310/A4
+  492  ./hadoop fs -ls hdfs://master:54310/
+  493  ./hadoop fs -put /home/test1/Asg4/asginpint hdfs://master:54310/A4/asginptint
+  494  ./hadoop fs -ls hdfs://master:54310/
+  495  ./hadoop fs -ls hdfs://master:54310/A4
+  496  ./hadoop fs -ls hdfs://master:54310/A4
+  497  cd ../sbin
+  498  ./stop-dfs.sh 
+  499  pwd
+  500  pwd
+  501  cd Downloads/
+  502  cd 
+  503  mkdir GITCODES
+  504  cd GITCODES/
+  505  git clone https://github.com/charan1312/DDS.git
+  506  cd DDS
+  507  ls
+  508  cp -R /home/test1/Downloads/Assignment5/Assignment5/
+  509  cp -R /home/test1/Downloads/Assignment5/Assignment5/ .
+  510  ls
+  511  cd Assignment5/
+  512  ls
+  513  cd ..
+  514  git status
+  515  git add .
+  516  git status
+  517  git commit -m 'Init Copy'
+  518  git push 
+  519  git push -u origin master
+  520  pwd
+  521  ls
+  522  pwd
+  523  cd Assignment5/
+  524  ls
+  525  python test
+  526  python tester.py 
+  527  python tester.py 
+  528  python tester.py 
+  529  python tester.py 
+  530  python tester.py 
+  531  python tester.py 
+  532  python tester.py 
+  533  python tester.py 
+  534  python tester.py 
+  535  python tester.py 
+  536  python tester.py 
+  537  python tester.py 
+  538  python tester.py 
+  539  python tester.py 
+  540  python tester.py 
+  541  python tester.py 
+  542  python tester.py 
+  543  python tester.py 
+  544  python tester.py 
+  545  python tester.py 
+  546  python tester.py 
+  547  python tester.py 
+  548  python tester.py 
+  549  python tester.py 
+  550  python tester.py 
+  551  python tester.py 
+  552  python tester.py 
+  553  python tester.py B
+  554  python tester.py B
+  555  python tester.py B
+  556  python tester.py 
+  557  python tester.py 
+  558  python tester.py 
+  559  python tester.py 
+  560  python tester.py 
+  561  python tester.py 
+  562  python tester.py 
+  563  wc findBusinessBasedOnCity.txt 
+  564  python tester.py 
+  565  python tester.py 
+  566  python tester.py 
+  567  python tester.py 
+  568  python tester.py 
+  569  python tester.py 
+  570  python tester.py 
+  571  python tester.py 
+  572  python tester.py 
+  573  python tester.py 
+  574  python tester.py 
+  575  cd ..
+  576* git 
+  577  git status
+  578  git commit -m 'fnshd Copy'
+  579  git status
+  580  git push 
+  581  git push 
+  582  history | grep usaeradd
+  583  history | grep useradd
+  584  history > hist1

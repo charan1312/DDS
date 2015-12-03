@@ -42,16 +42,17 @@ if __name__ == '__main__':
         collection = database[COLLECTION_NAME]
 
         #Loading BusinessCollection from a json file to MongoDB
-        print "Loading testData.json file in the " + COLLECTION_NAME + " present inside " + DATABASE_NAME
-        loadBusinessTable("testData.json", collection)
-    
+        #print "Loading testData.json file in the " + COLLECTION_NAME + " present inside " + DATABASE_NAME
+        #loadBusinessTable("testData.json", collection)
+        
         #Finding All Business name and address(full_address, city and state) present in CITY_TO_SEARCH
-        print "Executing FindBusinessBasedOnCity function"
-        Assignment5.FindBusinessBasedOnCity(CITY_TO_SEARCH, SAVE_LOCATION_1, collection)
-
+        #print "Executing FindBusinessBasedOnCity function"
+        #Assignment5.FindBusinessBasedOnCity(CITY_TO_SEARCH, SAVE_LOCATION_1, collection)
+        dist = Assignment5.distanceCalculator(33.362760000000002,-111.93534,33.423605,-111.939553)
+        print dist
         #Finding All Business name and address(full_address, city and state) present in radius of MY_LOCATION for CATEGORIES_TO_SEARCH
-        print "Executing FindBusinessBasedOnLocation function"
-        Assignment5.FindBusinessBasedOnLocation(CATEGORIES_TO_SEARCH, MY_LOCATION, MAX_DISTANCE, SAVE_LOCATION_2, collection)
+        #print "Executing FindBusinessBasedOnLocation function"
+        #Assignment5.FindBusinessBasedOnLocation(CATEGORIES_TO_SEARCH, MY_LOCATION, MAX_DISTANCE, SAVE_LOCATION_2, collection)
 
     except Exception as detail:
         print "Something bad has happened!!! This is the error ==> ", detail
